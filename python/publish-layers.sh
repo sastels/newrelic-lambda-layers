@@ -207,7 +207,7 @@ case "$1" in
         ;;
     "python3.10")
         build-python310-arm64
-        build-python310-x86
+        publish-python310-arm64
         build-python310-x86
         publish-python310-x86
         ;;
